@@ -190,3 +190,4 @@ async def telegram_webhook(request: Request):
 device_id=receipt.get("deviceId"),
 employee_id=receipt.get("employeeId"),
 shift_id=receipt.get("shiftId"),
+quantity=item.get("quantity", 1)
