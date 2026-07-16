@@ -186,3 +186,7 @@ async def telegram_webhook(request: Request):
 
 
     return {"ok": True}
+    store_id=receipt.get("storeId"),
+device_id=receipt.get("deviceId"),
+employee_id=receipt.get("employeeId"),
+shift_id=receipt.get("shiftId"),
